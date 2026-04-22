@@ -38,8 +38,13 @@ Principales hallazgos:
 - 🌍 **Eventos externos**: la caída del precio del petróleo de 2016 y el terremoto provocaron un estancamiento en las ventas
   a pesar del aumento de las promociones
 
-![Sales trend](images/ventas_diarias.png)
-![Oil price](images/oil_price.png)
+<p align="center">
+  <img src="images/ventas_diarias.png" width="300">
+</p>
+
+<p align="center">
+  <img src="images/oil_price.png" width="300">
+</p>
 
 ### 3. Preparación de datos
 - Se completaron los precios del petróleo faltantes (el mercado cierra los fines de semana)
@@ -77,7 +82,9 @@ Elegimos **LightGBM** en lugar de SARIMA/Prophet porque:
 - Las 3 características más importantes: week_of_year, dcoilwtico, sales_lag7
 - Puntuación pública de Kaggle: 1.887
 
-![Feature Importance](images/feature_importance.png)
+<p align="center">
+  <img src="images/feature_importance.png" width="300">
+</p>
 
 ## Cómo reproducir
 ```bash
