@@ -31,7 +31,7 @@ Source: [Kaggle — Store Sales Time Series Forecasting](https://www.kaggle.com/
 Objetivo de predicción definido: ventas diarias por par (store, product family).
 Métrica de evaluación identificada: RMSLE.
 
-### 2. Análisis Exploratorio de Datos (AED)
+### 2. Análisis Exploratorio de Datos (EDA)
 Principales hallazgos:
 - 📅 **Patrón semanal**: las ventas alcanzan su punto máximo los fines de semana
 - 📆 **Patrón anual**: las ventas aumentan en julio y diciembre, y disminuyen en enero
