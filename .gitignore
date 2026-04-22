@@ -1,0 +1,13 @@
+# Datos (no subir datasets pesados)
+data/
+*.csv
+*.pkl
+
+# Python
+__pycache__/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Entornos virtuales
+.env
